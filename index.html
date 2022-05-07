@@ -18,6 +18,16 @@
                 width: 100%;
             }
     
+            #title {
+                 position: absolute;
+                 top: 100;
+                 left: 0;
+                 margin-top: 20px;
+                 margin-left: 50px;
+                 font-family: 'Open Sans', sans-serif;
+                 font-size: 25pt;
+                 color: white
+            }
             /* the style of the layer control menu */
             #menu {
                 background: #fff;
@@ -69,6 +79,7 @@
     <body>
         <nav id="menu"></nav>
         <div id='map'></div>
+        <div id="title">Map of Monuments in Amsterdam</div>
         <script type="text/javascript">
             mapboxgl.accessToken =
                 'pk.eyJ1IjoiemxpdTk2IiwiYSI6ImNsMnI3ZWNkcDA0bmwzYnFzcmxnbG9rejMifQ.KS1NO7CgxL3hJi94lTgidQ';
